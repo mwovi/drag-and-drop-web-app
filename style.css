@@ -1,0 +1,37 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(76, 119, 168);
+}
+.fill{
+    position: relative;
+    background-image: url('images/wasp.png')  ;
+    background-size: cover;
+    width: 150px;
+    height: 160px;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    
+    
+    cursor: pointer;
+}
+.empty{
+    display: inline-block;
+    background-color: white;
+    width: 160px;
+    height: 165px;
+    margin-top: 200px;
+    margin-left: 70px;
+    border: 2px rgb(76, 119, 168);
+}
+.hold{
+    border: solid black 5px;
+}
+.hovered{
+    background: white;
+    border-style: dashed;
+}
+.invisible{
+    display: none;
+}
